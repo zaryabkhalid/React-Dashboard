@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: nunito, sans-serif;
+}
+
+.App.dark {
+  background-color: #111;
+  color: white;
+  .chartGrid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+  .table {
+    background-color: #111111;
+    .tableCell {
+      color: #777;
+    }
+  }
+
+  .navbar {
+    color: white;
+    border-color: #333;
+    .search {
+      border-color: #777;
+    }
+  }
+
+  .sidebar {
+    background-color: #111;
+    border-color: #333;
+    .sidebar__top {
+      border-color: #333;
+    }
+    .sidebar__center {
+      ul {
+        li {
+          &:hover {
+            background-color: #333;
+            color: #444;
+          }
+          .icon {
+            color: #777;
+          }
+        }
+      }
+    }
+  }
+
+  .datatable {
+    .datagrid {
+      //   background-color: #111;
+      color: #777;
+      border: none;
+      .viewButton,
+      .deleteButton {
+        color: #777;
+        border: none;
+      }
+    }
+  }
+
+  .new {
+    .bottom {
+      .right {
+        input {
+          background-color: transparent;
+          color: #777;
+          &:focus {
+            border-color: white;
+          }
+        }
+      }
+    }
+  }
+}

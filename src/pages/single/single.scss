@@ -1,0 +1,83 @@
+.single {
+  display: flex;
+  width: 100%;
+
+  .singleContainer {
+    flex: 6;
+
+    .top {
+      padding: 20px;
+      display: flex;
+      gap: 20px;
+
+      .left {
+        flex: 1;
+        box-shadow: -5px 5px 8px -4px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: -5px 5px 8px -4px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+        position: relative;
+
+        .editButton {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 5px;
+          font-size: 14px;
+          color: #7451f8;
+          background-color: #7551f852;
+          cursor: pointer;
+          border-radius: 0 0 0 5px;
+        }
+
+        .item {
+          display: flex;
+          gap: 20px;
+
+          .itemImg {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+        }
+
+        .details {
+          .itemTitle {
+            margin-bottom: 20px;
+            color: #555;
+          }
+
+          .detailItem {
+            margin-bottom: 5px;
+            display: flex;
+            gap: 10px;
+
+            .itemKey {
+              font-weight: 600;
+              color: gray;
+            }
+            .itemValue {
+              font-weight: 300;
+            }
+          }
+        }
+      }
+      .right {
+        flex: 2;
+      }
+    }
+    .bottom {
+      padding: 20px 10px;
+      box-shadow: -5px 5px 8px -4px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: -5px 5px 8px -4px rgba(0, 0, 0, 0.2);
+      margin: 10px 20px;
+    }
+
+    .title {
+      margin-bottom: 20px;
+      font-size: 18px;
+      color: gray;
+      font-weight: 500;
+    }
+  }
+}

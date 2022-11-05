@@ -1,0 +1,100 @@
+export const newUserInputs = [
+  {
+    key: 0,
+    id: "username",
+    label: "Username",
+    name: "username",
+    type: "text",
+    placeholder: "John Doe",
+  },
+  {
+    key: 1,
+    id: "surname",
+    label: "Name or Surname",
+    name: "surname",
+    type: "text",
+    placeholder: "John Doe",
+  },
+  {
+    key: 2,
+    id: "email",
+    label: "Email",
+    name: "email",
+    type: "email",
+    placeholder: "JohnDoe@gmail.com",
+  },
+  {
+    key: 3,
+    id: "password",
+    label: "Password",
+    name: "password",
+    type: "password",
+    placeholder: "Your password",
+  },
+  {
+    key: 4,
+    id: "confirmPassword",
+    label: "Confirm Password",
+    name: "confirmPassword",
+    type: "password",
+    placeholder: "Confirm password",
+  },
+  {
+    key: 5,
+    id: "phone",
+    label: "Phone No.",
+    name: "phone",
+    type: "tel",
+    placeholder: "+1 235 1548",
+  },
+
+  {
+    key: 6,
+    id: "address",
+    label: "Address",
+    name: "address",
+    type: "text",
+    placeholder: "Elton St. 234 Garden Yd. NewYork",
+  },
+  {
+    key: 7,
+    id: "country",
+    label: "Country",
+    name: "country",
+    type: "text",
+    placeholder: "Country Name",
+  },
+]
+
+export const newProductInputs = [
+  {
+    id: 1,
+    label: "Title",
+    type: "text",
+    placeholder: "Apple Macbook Pro",
+  },
+  {
+    id: 2,
+    label: "Description",
+    type: "text",
+    placeholder: "Description",
+  },
+  {
+    id: 3,
+    label: "Category",
+    type: "text",
+    placeholder: "Computers",
+  },
+  {
+    id: 4,
+    label: "Price",
+    type: "text",
+    placeholder: "100",
+  },
+  {
+    id: 5,
+    label: "Stock",
+    type: "text",
+    placeholder: "in stock",
+  },
+]

@@ -1,0 +1,45 @@
+.loginContainer {
+  border: 3px solid black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .title {
+    font-size: 4rem;
+    color: #6439ff;
+    margin: 20px 0;
+  }
+
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+
+    label {
+      font-size: 18px;
+    }
+
+    input {
+      width: 400px;
+      padding: 10px;
+      font-size: 16px;
+
+      &:focus {
+        outline-color: #6439ff;
+      }
+    }
+    button {
+      width: 150px;
+      padding: 10px 0;
+      background-color: #6439ff;
+      color: white;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+  }
+}
